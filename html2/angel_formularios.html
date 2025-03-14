@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><html>
+<head>
+    <meta charset="UTF-8" />
+        <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+        <link rel="stylesheet" href="../css/angelstyle_.css" type="text/css">
+    </header>
+    <nav>
+    <ul>
+        <li><a href="angel_formatostexto.html">Formatos</a></li>
+        <li><a href="angel_listas.html">Listas</a></li>
+        <li><a href="angel_enlaces.html">Enlaces</a></li>
+        <li><a href="angel_tablas.html">Tablas</a></li>
+        <li><a href="angel_imagenes.html">Imágenes</a></li>
+        <li><a href="angel_audios.html">Audios</a></li>
+        <li><a href="angel_videos.html">Videos</a></li>
+        <li><a href="angel_formularios.html">Formularios</a></li>
+    </ul>
+</nav>
+    <main>
+        <section>
+            <h2>Formulario</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem id, quam libero saepe? Iure itaque molestias eius non deserunt pariatur iste natus, accusamus, adipisci atque eum odit ipsam ipsum praesentium ducimus sapiente, tempora animi laboriosam, dolorem quia! Dolorum possimus alias delectus a est tempore voluptate odio, non, pariatur. Laudantium.</p>
+            <form action="" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" value="">
+                <label for="contrasena">Password:</label>
+                <input type="password" id="contrasena" name="contrasena" value="">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Formulario</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quis illum atque voluptatem quas et consectetur modi voluptates consequatur labore, aliquid, perspiciatis pariatur id in quam velit possimus minima neque. Vero ad, magnam aliquam, quasi architecto consectetur reiciendis eius nobis praesentium pariatur eaque perspiciatis fugiat expedita distinctio voluptatem porro voluptate!</p>
+            <form action="" method="get">
+                <label for="nombre-1">Nombre:</label>
+                <input type="text" id="nombre-1" name="nombre-1" value="">
+                <label for="genero">Genero</label>
+                <input type="radio" id="masculino" name="genero" value="masculino"> 
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label>
+                <br><br>
+                 <label for="pais">¿De que pais nos visitas?</label>
+                 <br><br>
+               <select id="pais" name="pais">
+                   <option value="ar">Argentina</option>
+                   <option value="co">Colombia</option>
+                   <option value="ec">Ecuador</option>
+                   <option value="it">Italia</option>
+                   <option value="mx">México</option>
+                   <option value="pa">Panama</option>
+                </select>
+                <br><br>
+                <label for="idioma">¿Que idiomas hablas?</label>
+                <br><br>
+                <input type="checkbox" id="idioma1" name="idioma1" value="Ingles">
+                <label for="idioma1">Ingles</label>
+                 <input type="checkbox" id="idioma2" name="idioma2" value="Frances">
+                <label for="idioma3">Frances</label>
+                 <input type="checkbox" id="idioma3" name="idioma3" value="Español">
+                <label type="idioma3">Espanol</label>
+                <br><br>
+                 <input type="submit" value="Enviar">   
+            </form>
+        </section>
+        <section>
+            <h2>Formulario</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, hic. Vitae accusamus voluptate id. Repellat doloremque in animi pariatur consequuntur earum laudantium, consequatur minima sed dolorum ex repellendus excepturi saepe possimus nihil aut accusamus fuga? Accusantium temporibus incidunt eaque, modi illo sint dolore asperiores ut. Autem voluptates dolores maxime recusandae.</p>
+             <form action="/submit_form1" method="POST">
+        <label for="nombre">¿Cuál es tu nombre?</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="email">¿Cuál es tu correo electrónico?</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="color">Elige un color favorito:</label>
+        <input type="color" id="color" name="color"><br><br>
+        <label for="fecha">Selecciona tu fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+        <label for="pago">¿Estás dispuesto a pagar por un servicio premium?</label>
+        <input type="radio" id="si" name="pago" value="si">Sí
+        <input type="radio" id="no" name="pago" value="no">No<br><br>
+        <label for="comentarios">Comentarios adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+        </section>
+        <section>
+            <h2>Formulario</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus est saepe numquam, rem dolorem obcaecati, mollitia necessitatibus quas, corrupti iure quam officia hic nisi temporibus explicabo aliquid odit suscipit voluptatibus, nobis totam animi amet! Aliquam suscipit hic nihil iure eum, quisquam vitae adipisci velit, odit dolorum fuga cum? Nostrum, tempora.</p>
+            <form action="/submit_form2" method="POST">
+        <label for="nombre">¿Cuál es tu nombre?</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="telefono">¿Cuál es tu número de teléfono?</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        <label for="contraseña">Crea una contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+        <label for="semana">Selecciona una semana:</label>
+        <input type="week" id="semana" name="semana"><br><br>
+        <label for="edad">¿Cuál es tu edad?</label>
+        <input type="number" id="edad" name="edad" min="1" max="120"><br><br>
+        <label for="archivo">Sube un archivo:</label>
+        <input type="file" id="archivo" name="archivo"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+        </section>
+    </main>
+    <header>
+        <h6>Elaborado por Luis Angel Sanchez Garcia</h6>
+    </header>
+</body>
+</html>

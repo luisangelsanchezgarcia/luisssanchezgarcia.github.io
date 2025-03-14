@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, footer, main {
+    width: 100%;
+    background-color: #F2E4BB;
+    color: #594A3C; 
+    padding: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav {
+    height: auto;
+    background-color: #F2ECE4;  
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    width: 100px;
+    min-width: 120px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #D9C2A7; 
+    color: black; 
+    border-radius: 20px;
+    text-align: center
+}
+nav ul li a:link,nav ul li a:visited{
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #594A3C; 
+}
+nav ul li:hover{
+    background-color: #F2ECE4; 
+    width: 95px;
+    font-size: 18px;
+}
+main{
+   height: auto;
+    background-color:antiquewhite;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #F2E4BB; 
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+h2,p{
+    margin-bottom: 30px;
+}
+h2{
+    color: black;
+}
+#tabla_1{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_1 th, #tabla_1 td #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#tabla_1 th, #tabla_2 th, #tabla_3 th{
+    background-color: antiquewhite;
+}
+#tabla_1 td{
+    background-color: beige;
+    color: antiquewhite
+}
+#tabla_2{
+    width: 100%;
+    /*border-style: solid;
+    border-color: yellow;
+    border: 5px;*/
+    border: 5px solid yellow;
+    border-spacing: 18px;
+    border-collapse: collapse;
+}
+#tabla_2 tbody tr:nth-child(even){
+    background-color: aqua
+}
+tabla_2 tbody tr:nth-child(odd){
+    background-color: bisque
+}
+#tabla_3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    border-collapse: collapse;
+}
+#tabla_3 th{
+    height: 60px;
+}
+#tabla_3 td{
+    height: 50px;
+    padding-left: 10px;
+}
+#tabla_3 th, #tabla_3 td{
+    border: 2px solid burlywood;
+}
+#tabla_3 tr:hover{
+    background-color: blanchedalmond;
+    color: burlywood;
+}
+h1,h6{
+    text-align: center;
+    font-size: 48px;
+}
+h6{
+    font-size: 18px;
+}
+img{
+    width: 40%;
+}
+imagenes_box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen_flotante_izq{
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+}
+.imagen_flotante_der{
+    width: 20%;
+    float: right;
+    margin-left: 20%;
+}
+.fondo{
+    background-image: url(../imagenes/FONDOOOO.jpg);
+    background-size: cover;
+}
+.imagen_enlace{
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-right: 50px;
+    margin-left: auto;
+}
+.icono{
+    width: 40px;
+    height: auto;
+    margin-right: 0px;
+    margin-left: auto;
+}
+#img-border-redondo{
+    border-radius: 50%;
+}
+.section-filtros{
+    color: #FBFFE4;
+    text-align: center;
+}
+.section-filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form{
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    background-color: #D9C2A7;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px; 
+}
+input[type=text],input[type=password]{
+   width: 100%; 
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+input[type=sumbit]{
+    width: 20px;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+input[type=text]:focus,input[type=password]:focus{
+    color:brown;
+    background-color: yellow;
+    border: 3px solid white;
+}
